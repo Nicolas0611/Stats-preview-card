@@ -40,6 +40,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 
 }
 .card-box-flex{
@@ -49,5 +50,27 @@ body{
     width: 1110px;
     height: 450px;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 8px;
+}
+.card-info{
+    margin-top: 80px;
+    margin-bottom: 65px;
+    margin-left: 74px;
+    margin-right: 74px;
+}
+.card-info-text > h1{
+    font-family: var(--font-family-Lexend);
+    color: var(--neutral-white-color);
+    font-size: 35px;
+}
+.card-info-text > h1 > span{
+    color:var(--primary-softviolet-color);
+}
+.img-container{
+    background-color: var(--primary-softviolet-color);
+    background-image: url("/images/image-header-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-blend-mode: multiply;
 }
