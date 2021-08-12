@@ -131,6 +131,10 @@ body{
     .card-data-grid{
 
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 47px;
+        padding-right: 0px;
     }
 
     .card-info-text > p {
@@ -142,5 +146,14 @@ body{
         padding-top: 27px;
         padding-right: 15px ;
         padding-left: 15px ;
+    }
+    .card-data{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 34px;
+    }
+    .card-data:last-child{
+        padding-bottom: 0px;
     }
  }
